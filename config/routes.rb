@@ -1,7 +1,10 @@
 Omrails::Application.routes.draw do
+<<<<<<< HEAD
   resources :pins
 
 
+=======
+>>>>>>> 2c00429021b8732d82e8b2ed7e56a1257da92408
   devise_for :users
 
   get 'about' => 'pages#about'
