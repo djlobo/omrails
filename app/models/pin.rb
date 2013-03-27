@@ -5,5 +5,5 @@ class Pin < ActiveRecord::Base
 
   belongs_to :user
 
-  validates :user_idea, presence: true
+  validates :user_id, presence: true
 end
