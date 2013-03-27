@@ -8,5 +8,5 @@ validates_attachment :image, presence: true,
                            size: { less_than: 5.megabytes }
 
 belongs_to :user
-has_attached_file :image
+has_attached_file :image, styles: {medium: "320x240"}
 end
