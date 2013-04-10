@@ -73,8 +73,8 @@ Omrails::Application.configure do
     :storage => :s3,
     :s3_credentials => {
       :bucket => "omrailslobo",
-      :access_key_id => "AKIAJDYBN53MT23DEJCQ",
-      :secret_access_key => "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"
+      :access_key_id => "AKIAJAMTI2L6K7OAXVTQ",
+      :secret_access_key => "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"
       }
     }
 end
